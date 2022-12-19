@@ -14,7 +14,8 @@ if(N > 1)
 {
     while(a <= N)
     {
-       Write(a + " ");
-        a = a + 2;
+       //Write(a + " ");
+       Write($"{a} {" "}");
+       a = a + 2;
     }
 }
